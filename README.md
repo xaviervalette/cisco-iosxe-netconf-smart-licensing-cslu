@@ -1,14 +1,13 @@
-# cisco-iosxe-netconf-licensing
-
-
-
- # Cisco IOS-XE NETCONF Smart Licensing for CSLU
+# Cisco IOS-XE NETCONF Smart Licensing for CSLU
 
 ## What is it ?
 A solution that configures CSLU url on Cisco IOS-XE devices via NETCONF. The output of the script is the following line added to the device configuration : 
-```cli
+```console
 license smart url cslu http://<your_cslu>:8182/cslu/v1/pi
- ```
+```
+<p align="center">
+<img width="650" alt="image" src="https://user-images.githubusercontent.com/28600326/232494010-f91e2b7d-1902-4a49-89e9-050a9d98eb8e.png">
+</p>
 
 ## Prerequisites
 - IOS-XE device with NETCONF enabled

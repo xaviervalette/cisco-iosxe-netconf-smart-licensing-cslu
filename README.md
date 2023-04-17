@@ -17,7 +17,7 @@ license smart url cslu http://<your_cslu>:8182/cslu/v1/pi
 ## Get started
 1. Clone or download this repo
 ```console
-git clone https://github.com/xaviervalette/cisco-iosxe-netconf-licensing
+git clone https://github.com/xaviervalette/cisco-iosxe-netconf-smart-licensing-cslu
 ```
 2. Install required packages
 ```console

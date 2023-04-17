@@ -1,0 +1,11 @@
+<config>
+    <licensing xmlns="http://cisco.com/ns/yang/cisco-smart-license">
+    <config>
+    <transport>
+    <transport-cslu>
+        <url-cslu></url-cslu>
+    </transport-cslu>
+    </transport>
+    </config>
+    </licensing>
+</config>

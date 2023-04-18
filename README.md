@@ -22,7 +22,7 @@ git clone https://github.com/xaviervalette/cisco-iosxe-netconf-smart-licensing-c
 ```console
 python3 -m pip install -r requirements.txt
 ```
-3. Add a ```config.yml``` file and a ```log``` folder as follow:
+3. Add a ```config.yml``` file as follow:
 ```diff
 └── meraki-network-event-log-collector/
 +   ├── config.yml

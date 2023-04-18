@@ -6,7 +6,7 @@ A solution that configures CSLU url on Cisco IOS-XE devices via NETCONF. The scr
 license smart url cslu http://<your_cslu>:8182/cslu/v1/pi
 ```
 <p align="center">
-<img width="750" alt="image" src="https://user-images.githubusercontent.com/28600326/232911963-4a855b3e-30e4-41db-94fa-5bbf6cf194b6.png">
+<img width="750" alt="image" src="https://user-images.githubusercontent.com/28600326/232914390-443da6ca-f7cc-4d1b-a6ea-e3ce77e849d5.png">
 </p>
 
 ```console
@@ -88,7 +88,7 @@ NETCONF Payload:
                 <config>
                         <transport>
                                 <transport-cslu>
-                                        <url-cslu>http://<your_cslu>:8182/cslu/v1/pi</url-cslu>
+                                        <url-cslu>http://<your_cslu>/cslu/v1/pi/<your_onprem_account></url-cslu>
                                 </transport-cslu>
                         </transport>
                 </config>
@@ -104,7 +104,7 @@ Device : iosxe_device_n done
 Example:
 
 <p align="center">
-<img width="650" alt="image" src="https://user-images.githubusercontent.com/28600326/232813150-8534f018-ccf7-4af8-bbfc-4ca1cf9e8c55.png">
+<img width="650" alt="image" src="https://user-images.githubusercontent.com/28600326/232914485-28bfd02d-cac9-4240-80d3-c55790c69662.png">
 </p>
 
 ```xml
@@ -115,7 +115,7 @@ NETCONF Payload:
                 <config>
                         <transport>
                                 <transport-cslu>
-                                        <url-cslu>http://192.168.1.192:8182/cslu/v1/pi</url-cslu>
+                                        <url-cslu>http://192.168.1.192/cslu/v1/pi/xvaletteOnPrem-1</url-cslu>
                                 </transport-cslu>
                         </transport>
                 </config>

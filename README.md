@@ -91,6 +91,11 @@ Device : iosxe_device_n done
 ```
 
 Example:
+
+<p align="center">
+<img width="650" alt="image" src="https://user-images.githubusercontent.com/28600326/232742417-374c60f1-9500-4ddb-b1b1-ea48088e6f0b.png">
+</p>
+
 ```xml
 NETCONF Payload:
  <?xml version="1.0" encoding="utf-8"?>
@@ -99,7 +104,7 @@ NETCONF Payload:
                 <config>
                         <transport>
                                 <transport-cslu>
-                                        <url-cslu>http://192.168.0.42:8182/cslu/v1/pi</url-cslu>
+                                        <url-cslu>http://192.168.1.192:8182/cslu/v1/pi</url-cslu>
                                 </transport-cslu>
                         </transport>
                 </config>

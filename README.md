@@ -6,7 +6,7 @@ A solution that configures CSLU url on Cisco IOS-XE devices via NETCONF. The scr
 license smart url cslu http://<your_cslu>:8182/cslu/v1/pi
 ```
 <p align="center">
-<img width="650" alt="image" src="https://user-images.githubusercontent.com/28600326/232494010-f91e2b7d-1902-4a49-89e9-050a9d98eb8e.png">
+<img width="750" alt="image" src="https://user-images.githubusercontent.com/28600326/232812545-873ce3ad-cac5-4333-a086-4ca68a8fe924.png">
 </p>
 
 ## Prerequisites
@@ -93,7 +93,7 @@ Device : iosxe_device_n done
 Example:
 
 <p align="center">
-<img width="650" alt="image" src="https://user-images.githubusercontent.com/28600326/232742417-374c60f1-9500-4ddb-b1b1-ea48088e6f0b.png">
+<img width="650" alt="image" src="https://user-images.githubusercontent.com/28600326/232813150-8534f018-ccf7-4af8-bbfc-4ca1cf9e8c55.png">
 </p>
 
 ```xml

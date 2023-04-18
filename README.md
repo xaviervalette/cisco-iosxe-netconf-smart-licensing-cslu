@@ -77,7 +77,7 @@ NETCONF Payload:
                 <config>
                         <transport>
                                 <transport-cslu>
-                                        <url-cslu>http://<your_cslu:8182>/cslu/v1/pi</url-cslu>
+                                        <url-cslu>http://<your_cslu>:8182/cslu/v1/pi</url-cslu>
                                 </transport-cslu>
                         </transport>
                 </config>

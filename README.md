@@ -9,6 +9,17 @@ license smart url cslu http://<your_cslu>:8182/cslu/v1/pi
 <img width="750" alt="image" src="https://user-images.githubusercontent.com/28600326/232911963-4a855b3e-30e4-41db-94fa-5bbf6cf194b6.png">
 </p>
 
+```console
+! Authenticate the device and CSLU
+license smart trust idtoken <idtoken> local
+
+! Set up URL for device to reach CSLU
+license smart url cslu http://<your_cslu>/cslu/v1/pi/<your_onprem_account>
+
+! Manual synchronisation with CSLU
+license smart sync local
+```
+
 ## Prerequisites
 - IOS-XE device with NETCONF enabled
 - CSLU (SSM On-Prem, Windows app, DNA Center, ...) that should be reachable from IOS-XE device

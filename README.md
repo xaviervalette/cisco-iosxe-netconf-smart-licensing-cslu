@@ -2,23 +2,20 @@
 
 ## What is it ?
 A solution that configures CSLU url on Cisco IOS-XE devices via NETCONF. The script adds the following configuration to the IOS-XE devices via NETCONF : 
-```console
-license smart url cslu http://<your_cslu>:8182/cslu/v1/pi
-```
-<p align="center">
-<img width="750" alt="image" src="https://user-images.githubusercontent.com/28600326/232914390-443da6ca-f7cc-4d1b-a6ea-e3ce77e849d5.png">
-</p>
-
-```console
+```diff
 ! Authenticate the device and CSLU
 license smart trust idtoken <idtoken> local
 
 ! Set up URL for device to reach CSLU
-license smart url cslu http://<your_cslu>/cslu/v1/pi/<your_onprem_account>
++ license smart url cslu http://<your_cslu>/cslu/v1/pi/<your_onprem_account>
 
 ! Manual synchronisation with CSLU
 license smart sync local
 ```
+
+<p align="center">
+<img width="750" alt="image" src="https://user-images.githubusercontent.com/28600326/232914390-443da6ca-f7cc-4d1b-a6ea-e3ce77e849d5.png">
+</p>
 
 ## Prerequisites
 - IOS-XE device with NETCONF enabled

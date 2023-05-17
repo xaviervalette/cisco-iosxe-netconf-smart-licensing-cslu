@@ -3,14 +3,8 @@
 ## What is it ?
 A solution that configures CSLU url on Cisco IOS-XE devices via NETCONF. The script adds the following configuration to the IOS-XE devices via NETCONF : 
 ```diff
-! Authenticate the device and CSLU
-license smart trust idtoken <idtoken> local
-
 ! Set up URL for device to reach CSLU
 + license smart url cslu http://<your_cslu>/cslu/v1/pi/<your_onprem_account>
-
-! Manual synchronisation with CSLU
-license smart sync local
 ```
 
 <p align="center">
